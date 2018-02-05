@@ -10,14 +10,14 @@ class Form extends Component {
     super(props)
 
     this.addPost = this.addPost.bind(this)
-	}
+  }
 
   addPost () {
     if (this.titleInp.value !== '') {
-  	  this.props.onAddPost(this.titleInp.value, this.bodyInp.value)
-  	  this.bodyInp.value = ''
-  	  this.titleInp.value = ''
-  	} else {
+      this.props.onAddPost(this.titleInp.value, this.bodyInp.value)
+      this.bodyInp.value = ''
+      this.titleInp.value = ''
+    } else {
       swal("Did you type any title?", "Type something to the title input to add the post!", "warning")
     }
   }
