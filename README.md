@@ -14,7 +14,7 @@ Read instructions below for using assets from JavaScript and HTML.
 You can, however, create more top-level directories.<br>
 They will not be included in the production build so you can use them for things like documentation.
 
-### Install Blog Api
+## Install Blog Api
 
 You can find this API [here](https://github.com/Fishbah757/blog-api-for-react-app)
 
