@@ -1,0 +1,19 @@
+*, *:before, *:after { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 20px 0;
+    font-size: 24px;
+}
+p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+body {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    width: 700px;
+    margin: 0 auto;
+}

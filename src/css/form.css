@@ -1,0 +1,34 @@
+textarea {
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+    height: 120px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+input {
+    width: 100%;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+.post-add-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px gray solid;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 1px 3px 3px rgb(180, 180, 180);
+    background: linear-gradient(to bottom, rgb(230, 230, 230), white);
+}
+.post-add-form > button {
+    align-self: flex-end;
+    color: white;
+    background: rgb(68, 161, 68);
+    padding: 5px 10px;
+    border: 1px darkgreen solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
